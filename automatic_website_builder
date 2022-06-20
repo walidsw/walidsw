@@ -77,19 +77,3 @@ filename = 'file:///'+os.getcwd()+'/' + 'myfile.html'
 
 ##for opening into webbrowser
 webbrowser.open_new_tab(filename)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
