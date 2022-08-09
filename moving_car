@@ -1,0 +1,23 @@
+import time
+m=' '
+loops=0
+while(loops<3):
+    loops+=1
+    for k in range(0,100):
+    
+
+   
+        print(f'{m*k}                 |----|')
+        print(f'{m*k}                 |  O |')
+        print(f'{m*k}           \O/   |----|')
+        print(f'{m*k}            |    |     ')
+        print(f'{m*k}           / \   |     ')    
+        print(f'{m*k}     -|--------------|-\\')
+        print(f'{m*k}    / |  BANGLADESH  |  \\')
+        print(f'{m*k}   /--|--------------|---\\')
+        print(f'{m*k}  /   |WALID SWADHIN | -- \\')
+        print(f'{m*k} -----|--------------|-----\\')
+        print(f'{m*k}   O                     O    ')
+    
+        time.sleep(0.098)
+        print('\033c')
